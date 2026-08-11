@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,50:6366F1,100:06B6D4&height=200&section=header&text=Lamek%20Tsegay&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=multi-agent%20systems%20%C2%B7%20and%20the%20tools%20to%20watch%20them%20think&descAlignY=55&descSize=16" width="100%" alt="Lamek Tsegay" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,50:6366F1,100:06B6D4&height=180&section=header" width="100%" alt="" />
+
+# Lamek Tsegay
+
+### multi-agent systems · and the tools to watch them think
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=900&color=6366F1&center=true&vCenter=true&width=680&lines=33+agents+in+a+trench+coat;Observability+for+things+that+talk+back;Python%2C+C%2C+and+a+little+RISC-V;If+it+times+out%2C+I+want+to+know+why" alt="Typing intro" />
 
