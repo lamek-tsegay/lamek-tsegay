@@ -1,63 +1,124 @@
-# Lamek Tsegay
+<div align="center">
 
-Building multi-agent systems — and the tooling to see what they're actually doing.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,50:6366F1,100:06B6D4&height=200&section=header&text=Lamek%20Tsegay&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=multi-agent%20systems%20%C2%B7%20and%20the%20tools%20to%20watch%20them%20think&descAlignY=55&descSize=16" width="100%" alt="Lamek Tsegay" />
 
-Currently at [fetch.ai](https://fetch.ai), San Francisco. Most of my work lives at the
-seam between agents that talk to each other and the observability that makes those
-conversations debuggable.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=900&color=6366F1&center=true&vCenter=true&width=680&lines=33+agents+in+a+trench+coat;Observability+for+things+that+talk+back;Python%2C+C%2C+and+a+little+RISC-V;If+it+times+out%2C+I+want+to+know+why" alt="Typing intro" />
 
----
+<br/>
 
-### What I'm working on
+<img src="https://img.shields.io/badge/%40-fetch.ai-6366F1?style=for-the-badge&labelColor=1a1b27" alt="fetch.ai" />
+<img src="https://img.shields.io/badge/San_Francisco-06B6D4?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=1a1b27" alt="San Francisco" />
+<img src="https://komarev.com/ghpvc/?username=lamek-tsegay&style=for-the-badge&color=A855F7&label=VISITORS" alt="Profile views" />
 
-| Project | |
-|---|---|
-| **[uagents-trace](https://github.com/lamek-tsegay/uagents-trace)** | Drop-in, read-only observability for [uAgents](https://github.com/fetchai/uAgents). Records a span for every send and receive to local SQLite, then draws the message flow live in your terminal — so you can see what got delivered, what timed out, and what got dropped. |
-| **[launchpad](https://github.com/lamek-tsegay/launchpad)** | A ~33-agent system that turns a one-line business idea into a starter kit: brand, site copy, market scan, compliance checklist. Built specifically to stress-test `uagents-trace` under real fan-out. |
-| **[patch](https://github.com/lamek-tsegay/patch)** | An autonomous security agent that scans a codebase, classifies vulnerabilities, proposes ranked fixes, and commits approved ones. Every action is governed by a YAML policy, with a full audit trail. |
-| **[aeroshift](https://github.com/lamek-tsegay/aeroshift)** | Unsupervised detection of behavioral shifts in aircraft arrival trajectories — clustering flight paths to catch when the pattern quietly changes. |
-| **[prism](https://github.com/lamek-tsegay/prism)** | Your face, your sound. Real-time webcam emotion detection mapped to generated chord progressions. React + face-api.js on the front, C# on the back. |
-| **[taskr-depsched](https://github.com/lamek-tsegay/taskr-depsched)** | A dependency-aware task runner in the spirit of make and Bazel. Models tasks as a DAG, tracks completion state, and supports incremental rebuilds via invalidation. |
-
-Lower-level things I keep going back to: a
-[hash-table database in C](https://github.com/lamek-tsegay/bizdb), an
-[expression engine](https://github.com/lamek-tsegay/expr-engine), and
-[list operations in RISC-V assembly](https://github.com/lamek-tsegay/riscv-listops).
+</div>
 
 ---
 
-### By the numbers
+## 🛠️ &nbsp;Things I've built
 
-<p align="left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=lamek-tsegay&hide_border=true&theme=github-dark-blue">
-    <img src="https://streak-stats.demolab.com?user=lamek-tsegay&hide_border=true&theme=default" alt="Total contributions and commit streak for lamek-tsegay" height="170">
-  </picture>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔍 [uagents-trace](https://github.com/lamek-tsegay/uagents-trace)
+Drop-in observability for [uAgents](https://github.com/fetchai/uAgents). Records a span for every send and receive, then draws the message flow **live in your terminal** — what landed, what timed out, what vanished.
+
+</td>
+<td width="50%" valign="top">
+
+### 🚀 [launchpad](https://github.com/lamek-tsegay/launchpad)
+**~33 agents** turn a one-line business idea into a real starter kit: brand, site copy, market scan, compliance checklist. Built to stress-test `uagents-trace` under genuine fan-out.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ [patch](https://github.com/lamek-tsegay/patch)
+An autonomous security agent that scans, classifies, and proposes ranked fixes — then commits the approved ones. Every move governed by YAML policy, with a full audit trail.
+
+</td>
+<td width="50%" valign="top">
+
+### ✈️ [aeroshift](https://github.com/lamek-tsegay/aeroshift)
+Unsupervised detection of behavioral drift in aircraft arrivals. Clusters flight trajectories to catch the moment the pattern quietly changes.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌈 [prism](https://github.com/lamek-tsegay/prism)
+Your face, your sound. Webcam reads your expression in real time and maps it to a generated chord progression. React + face-api.js up front, C# behind.
+
+</td>
+<td width="50%" valign="top">
+
+### 🧩 [taskr-depsched](https://github.com/lamek-tsegay/taskr-depsched)
+A dependency-aware task runner in the spirit of make and Bazel. Tasks as a DAG, persistent completion state, incremental rebuilds via invalidation.
+
+</td>
+</tr>
+</table>
+
+> 🔧 &nbsp;**Closer to the metal:** a [hash-table database in C](https://github.com/lamek-tsegay/bizdb) · an [expression engine](https://github.com/lamek-tsegay/expr-engine) · [list ops in RISC-V assembly](https://github.com/lamek-tsegay/riscv-listops)
+
+---
+
+## ⚡ &nbsp;Toolkit
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,c,cs,js,react,fastapi,sqlite,docker,git,linux,vercel&theme=dark" alt="Tech stack" />
+
+</div>
+
+---
+
+## 📊 &nbsp;The receipts
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=lamek-tsegay&hide_border=true&theme=tokyonight&border_radius=12">
+  <img src="https://streak-stats.demolab.com?user=lamek-tsegay&hide_border=true&theme=default&border_radius=12" alt="Total contributions and commit streak" height="180" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=lamek-tsegay&theme=tokyo-night&hide_border=true&radius=12&custom_title=Commits%20over%20time">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lamek-tsegay&theme=github-light&hide_border=true&radius=12&custom_title=Commits%20over%20time" alt="Commit activity over time" width="100%" />
+</picture>
+
+</div>
 
 <!--
-  WANT THE ALL-TIME COMMIT COUNT CARD TOO?
+  WANT THE ALL-TIME COMMIT-COUNT CARD TOO?
 
-  The public github-readme-stats instance is currently paused (returns 503), so its
-  card would show as a broken image. Deploy your own copy — it takes about 5 minutes,
-  never rate-limits, and unlike the shared instance it can count your PRIVATE commits:
+  The public github-readme-stats instance is paused (503), and the trophy service is
+  over quota (402) — both would render as broken images, so neither is used above.
+  Deploy your own github-readme-stats: ~5 minutes, never rate-limits, and unlike the
+  shared instance it can count your PRIVATE commits.
 
     1. Fork https://github.com/anuraghazra/github-readme-stats
     2. Import the fork at https://vercel.com/new
     3. Add env var PAT_1 = a GitHub token with the `repo` scope
-    4. Uncomment the block below, replacing YOUR-APP with your Vercel subdomain
+    4. Uncomment below, replacing YOUR-APP with your Vercel subdomain
 
-<p align="left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://YOUR-APP.vercel.app/api?username=lamek-tsegay&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark">
-    <img src="https://YOUR-APP.vercel.app/api?username=lamek-tsegay&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=default" alt="Total commits, stars, pull requests and issues for lamek-tsegay" height="170">
-  </picture>
-</p>
+<div align="center">
+  <img src="https://YOUR-APP.vercel.app/api?username=lamek-tsegay&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&border_radius=12" height="180" alt="Commit stats" />
+  <img src="https://YOUR-APP.vercel.app/api/top-langs/?username=lamek-tsegay&layout=compact&hide_border=true&theme=tokyonight&border_radius=12" height="180" alt="Top languages" />
+</div>
 -->
-
 
 ---
 
-### Reach me
+<div align="center">
 
-[GitHub](https://github.com/lamek-tsegay) · [Email](mailto:lamektsegaya@gmail.com)
+### 💬 &nbsp;Say hi
+
+<a href="mailto:lamektsegaya@gmail.com"><img src="https://img.shields.io/badge/Email-6366F1?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b27" alt="Email" /></a>
+<a href="https://github.com/lamek-tsegay"><img src="https://img.shields.io/badge/GitHub-A855F7?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" alt="GitHub" /></a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:6366F1,100:A855F7&height=120&section=footer" width="100%" alt="" />
+
+</div>
