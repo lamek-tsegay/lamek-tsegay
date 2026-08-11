@@ -79,10 +79,12 @@ A dependency-aware task runner in the spirit of make and Bazel. Tasks as a DAG, 
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=lamek-tsegay&hide_border=true&theme=tokyonight&border_radius=12">
-  <img src="https://streak-stats.demolab.com?user=lamek-tsegay&hide_border=true&theme=default&border_radius=12" alt="Total contributions and commit streak" height="180" />
-</picture>
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3Alamek-tsegay&query=%24.total_count&label=commits%20all-time&style=for-the-badge&color=A855F7&logo=git&logoColor=white&labelColor=1a1b27" alt="All-time commits" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2Flamek-tsegay%3Fy%3Dall&query=%24.total.2026&label=contributions%20in%202026&style=for-the-badge&color=06B6D4&logo=github&logoColor=white&labelColor=1a1b27" alt="Contributions this year" />
+<img src="https://img.shields.io/github/followers/lamek-tsegay?style=for-the-badge&color=6366F1&labelColor=1a1b27&logo=github&logoColor=white" alt="Followers" />
+<img src="https://img.shields.io/github/stars/lamek-tsegay?affiliations=OWNER&style=for-the-badge&color=F59E0B&labelColor=1a1b27&logo=github&logoColor=white" alt="Stars" />
+
+<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=lamek-tsegay&theme=tokyo-night&hide_border=true&radius=12&custom_title=Commits%20over%20time">
